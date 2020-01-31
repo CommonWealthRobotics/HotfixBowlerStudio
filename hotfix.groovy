@@ -10,6 +10,6 @@ ScriptingEngine.gitScriptRun(
 }else{
 	println "Using internal slicer"
 }
-
+if(version[0]<=1 && version[1]<=3&& version[2]<=1)
 ScriptingEngine.gitScriptRun("https://github.com/CommonWealthRobotics/DeviceProviders.git",
 											"loadAll.groovy",[])
