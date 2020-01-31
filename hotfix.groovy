@@ -10,3 +10,6 @@ ScriptingEngine.gitScriptRun(
 }else{
 	println "Using internal slicer"
 }
+
+ScriptingEngine.gitScriptRun("https://github.com/CommonWealthRobotics/DeviceProviders.git",
+											"loadAll.groovy",[])
